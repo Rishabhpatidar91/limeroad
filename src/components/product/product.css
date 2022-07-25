@@ -1,0 +1,16 @@
+.offer_div_pic {
+  position: "absolute";
+  background-color: white;
+  padding: "3px";
+  color: green;
+  text-align: left;
+}
+
+.offer_div_pic > span {
+  background-color: transparent;
+  padding: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+  border: 1px solid green;
+}/*# sourceMappingURL=product.css.map */
