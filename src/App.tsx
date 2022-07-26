@@ -6,15 +6,19 @@ import Home from './pages/home/Home';
 import { Route, Router, Routes } from 'react-router-dom';
 import Products from './products/Products';
 import ProductDetail from './components/productdetail/ProductDetail';
+import Login from './pages/login/Login';
+import Layout from './pages/layout/Layout';
+import Signup from './pages/login/Signup';
+// import Layout from './components/product/Layout';
 
 function App() {
   return (
     <div className="App">
-     <Navbar />
+     {/* <Navbar /> */}
      <Routes>
-      <Route path="/home" element={<Home/>} />
-      <Route path="/products" element={<Products/>} />
-      <Route path="/productdetail" element={<ProductDetail/>} />
+      <Route path="/login" element={<Login/>} />
+      <Route path="/signup" element={<Signup/>} />
+      <Route path="/*" element={<Layout/>} />
      </Routes>
     </div>
   );
